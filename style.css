@@ -427,7 +427,7 @@ textarea {
   .header .nav-toggle {
     right: 0%;
   }
-}*/
+}
 
 @media (max-width: 480px) {
   
@@ -439,9 +439,14 @@ textarea {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   
-html{
-  font-size: 0.4rem;
+.home .hero .text1{
+  width: 80%;
+  font-size: small;
+}
+  .home .hero .text2{
+    width: 70%;
+  font-size: small;
 }
 }
